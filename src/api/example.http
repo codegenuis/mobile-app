@@ -1,0 +1,10 @@
+
+curl \
+  -X POST \
+  -H "Content-Type: application/json" \
+  --data '{ "query": "query movies {
+    allMovies(first: 3) {
+      title
+    }
+  }" }' \
+  https://api.graph.cool/simple/v1/cixos23120m0n0173veiiwrjr

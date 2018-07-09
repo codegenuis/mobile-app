@@ -1,0 +1,31 @@
+{
+  {
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "workbench.colorTheme": "Material Theme High Contrast",
+    "editor.autoIndent": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "files.autoSave": "onFocusChange",
+    "eslint.autoFixOnSave": true,
+    "tslint.autoFixOnSave": true,
+    "extensions.ignoreRecommendations": false,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    },
+    "git.autofetch": true,
+    "files.associations": {
+        "*.html": "html"
+    },
+    "gitlens.keymap": "alternate",
+    "vsicons.projectDetection.autoReload": true
+}
+}

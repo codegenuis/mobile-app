@@ -1,0 +1,29 @@
+{
+    "extends": "airbnb",
+    "plugins": ["fetch"],
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true
+      },
+     
+      "globals": {
+        "fetch": true
+      },
+    "rules": {
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx"
+                ]
+            }
+        ],
+        "comma-dangle": "off",
+        "arrow-parens": "off",
+        "linebreak-style": ["error", "windows"],
+        "object-curly-newline": "off",
+        "react/prop-types": "off",
+        "no-useless-escape": "off"
+    }
+}
